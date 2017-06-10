@@ -1,6 +1,9 @@
 # fantastical
 A fantasy name generator based on [fantasygen](https://github.com/alxgiraud/fantasygen). You can see examples of the output below [here](http://fantasygen.herokuapp.com/).
 
+## Install
+`npm i fantastical`
+
 ## API
 
 ### `species`
