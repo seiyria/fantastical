@@ -2,4 +2,6 @@
 
 const placesTest = require('../../src/generators/places');
 
-console.log('place', placesTest.place());
+['tavern'].forEach(place => {
+    console.log(place, placesTest[place]());
+});
