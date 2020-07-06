@@ -2,9 +2,12 @@
   "name": "fantastical",
   "version": "1.0.2",
   "description": "a fantasy name generator",
-  "main": "src/index.js",
+  "main": "./dist/index.js",
+  "typings": "./dist/src/index.d.ts",
   "scripts": {
-    "test": "node test/test-all"
+    "test": "ts-node test/test-all",
+    "prepublish": "npm run build",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +33,11 @@
     "lodash.endswith": "^4.2.1",
     "lodash.includes": "^4.3.0",
     "lodash.sample": "^4.2.1"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "3.4.1",
+    "ts-node": "4.1.0",
+    "typescript": "2.7.2",
+    "webpack": "3.11.0"
   }
 }
