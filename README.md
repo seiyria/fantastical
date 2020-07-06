@@ -51,3 +51,11 @@ No place function supports options at this time.
 Function      | Options
 --------      | -------
 `tavern`      | none
+
+### `adventures`
+
+No adventure function supports options at this time.
+
+Function      | Options
+--------      | -------
+`adventure`   | none
