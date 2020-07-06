@@ -1,0 +1,1 @@
+export const dieRoll = (dieSize = 10) => Math.floor(Math.random() * dieSize) + 1;
