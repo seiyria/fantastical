@@ -32,3 +32,5 @@ export const adventure = () => {
       return capitalize(item);
   });
 };
+
+export const adventures = { adventure };

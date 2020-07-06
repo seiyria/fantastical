@@ -28,3 +28,5 @@ export const tavern = () => {
         return capitalize(item);
     });
 };
+
+export const places = { tavern };

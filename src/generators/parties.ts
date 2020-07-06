@@ -117,3 +117,5 @@ export const guild = () => {
 
     return `${capitalize(sample(_guilds.descriptions))} ${capitalize(sample(sample(_guilds.groups)))}`;
 };
+
+export const parties = { mysticOrder, militaryUnit, guild };

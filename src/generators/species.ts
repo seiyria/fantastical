@@ -322,3 +322,5 @@ export const human = ({ allowMultipleNames } = { allowMultipleNames: false }) =>
 
     return sample(_names.human[sample(Object.keys(_names.human))]);
 };
+
+export const species = { goblin, orc, ogre, cavePerson, dwarf, halfling, gnome, elf, highelf, fairy, highfairy, darkelf, drow, halfdemon, demon, dragon, angel, human };
