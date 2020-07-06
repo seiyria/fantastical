@@ -5,7 +5,7 @@ A fantasy name generator based on [fantasygen](https://github.com/alxgiraud/fant
 `npm i fantastical`
 
 ## Usage
-`const { species, parties, places } = require('fantastical')`
+`import { human, mysticOrder, adventure, tavern } = from 'fantastical';`
 
 ## API
 
