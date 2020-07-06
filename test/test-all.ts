@@ -1,5 +1,6 @@
 
-require('./generators/species');
-require('./generators/parties');
-require('./generators/places');
-require('./generators/adventure');
+
+import './generators/species';
+import './generators/parties';
+import './generators/places';
+import './generators/adventures';
