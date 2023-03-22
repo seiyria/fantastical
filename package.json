@@ -38,6 +38,6 @@
     "awesome-typescript-loader": "3.4.1",
     "ts-node": "4.1.0",
     "typescript": "2.7.2",
-    "webpack": "3.11.0"
+    "webpack": "5.75.0"
   }
 }
